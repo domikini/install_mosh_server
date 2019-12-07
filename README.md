@@ -6,3 +6,10 @@ Mosh does not support port forwarding or proxying, and you cannot use mosh to co
 
 # Preparing Your Firewall
 Before installing Mosh, you should verify that your server's firewall will allow the Mosh client and server to communicate. If you followed our instructions to create a firewall with iptables, you’ll need to edit /etc/iptables.firewall.rules and add another rule to allow the Mosh client to connect to your server over UDP ports 60000–61000.
+
+# Install mosh
+Depending on OS. Install mosh from official repository
+
+Read on Mosh homepage regarding install options. 
+
+https://mosh.org/#getting
